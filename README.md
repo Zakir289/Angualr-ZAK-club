@@ -79,3 +79,7 @@ mainApp.controller('studentController', function($scope) {
 </html>
 
 ```
+
+The above code looks like this
+![Sample AngularJS image] (https://github.com/Zakir289/Angualr-car-race/blob/master/AngluarSample.png)
+
