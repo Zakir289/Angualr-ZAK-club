@@ -83,3 +83,9 @@ mainApp.controller('studentController', function($scope) {
 The above code looks like this
 ![Sample AngularJS image] (https://github.com/Zakir289/Angualr-car-race/blob/master/AngluarSample.png)
 
+
+
+AngularJS provide services like `$http, $route, $window, $location etc`. Each service has specific defintion for example,  $http is used to make ajax call to get the server data. $route is used to define the routing information and so on. Inbuild services are always prefixed with $ symbol. Controllers, filters can call them as on requirement basis. Services are normally injected using dependency injection mechanism of AngularJS.
+
+
+
