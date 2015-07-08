@@ -37,3 +37,6 @@ Based on the input, Controller performs interactions with data model objects. Co
 - **Deep Linking:** Deep linking allows you to encode the state of application in the URL so that it can be bookmarked. The application can then be restored from the URL to the same state.
 - **Dependency Injection:** AngularJS has a built-in dependency injection subsystem that helps the developer by making the application easier to develop, understand, and test.
 
+#### Few Disadvantages of AngularJS to discuss:
+0. Security issue : It’s recommended to keep server side authentication as angular is like javascript only framework.
+1. considering usecase like user disabling javascript on the page, then only the basic page will be shown. I don’t think that particular use case need to be considered.
