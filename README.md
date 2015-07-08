@@ -27,13 +27,13 @@ Based on the input, Controller performs interactions with data model objects. Co
 
 - **Data-binding :** It is the automatic synchronization of data between model and view components.
 - **Scope :**These are objects that refer to the model. They act as a glue between controller and view.
-- **Controller: ** These are Javascript functions that are bound to a particular scope.
+- **Controller:**These are Javascript functions that are bound to a particular scope.
 - **Services:** AngularJS come with several built-in services for example $http to make a XMLHttpRequests. These are singleton objects which are instantiated only once in app.
 
-- **Filters: ** These select a subset of items from an array and returns a new array.
+- **Filters:** These select a subset of items from an array and returns a new array.
 - **Directives:** Directives are markers on DOM elements (such as elements, attributes, css, and more). These can be used to create custom HTML tags that serve as new, custom widgets. AngularJS has built-in directives (ngBind, ngModel...)
-- ** Templates: ** These are the rendered view with information from the controller and model. These can be a single file (like index.html) or multiple views in one page using "partials".
-- **Routing: ** It is concept of switching views.
-- **Deep Linking: ** Deep linking allows you to encode the state of application in the URL so that it can be bookmarked. The application can then be restored from the URL to the same state.
+- ** Templates:** These are the rendered view with information from the controller and model. These can be a single file (like index.html) or multiple views in one page using "partials".
+- **Routing:** It is concept of switching views.
+- **Deep Linking:** Deep linking allows you to encode the state of application in the URL so that it can be bookmarked. The application can then be restored from the URL to the same state.
 - **Dependency Injection:** AngularJS has a built-in dependency injection subsystem that helps the developer by making the application easier to develop, understand, and test.
 
