@@ -40,3 +40,42 @@ Based on the input, Controller performs interactions with data model objects. Co
 #### Few Disadvantages of AngularJS to discuss:
 0. Security issue : It’s recommended to keep server side authentication as angular is like javascript only framework.
 1. considering usecase like user disabling javascript on the page, then only the basic page will be shown. I don’t think that particular use case need to be considered.
+
+
+#### Please go through the basic example of AngularJS:
+
+```html
+
+<html>
+<head>
+<title>Angular JS Example</title>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</head>
+<body>
+<h2>AngularJS Sample Application</h2>
+<div ng-app="mainApp" ng-controller="studentController">
+
+Enter first name: <input type="text" ng-model="student.firstName"><br><br>
+Enter last name: <input type="text" ng-model="student.lastName"><br>
+<br>
+You are entering: {{student.fullName()}}
+</div>
+<script>
+var mainApp = angular.module("mainApp", []);
+
+mainApp.controller('studentController', function($scope) {
+   $scope.student = {
+      firstName: "zakir",
+      lastName: "akihtrak",
+      fullName: function() {
+         var studentObject;
+         studentObject = $scope.student;
+         return studentObject.firstName + " " + studentObject.lastName;
+      }
+   };
+});
+</script>
+</body>
+</html>
+
+```
