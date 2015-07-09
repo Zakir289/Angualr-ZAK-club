@@ -88,3 +88,13 @@ The above code looks like this
 AngularJS provide services like `$http, $route, $window, $location etc`. Each service has specific defintion for example,  $http is used to make ajax call to get the server data. $route is used to define the routing information and so on. Inbuild services are always prefixed with $ symbol. Controllers, filters can call them as on requirement basis. Services are normally injected using dependency injection mechanism of AngularJS.
 
 
+
+Zak's club implementation
+![Home] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Home_page.png)
+![Home] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Home1.png)
+![Contact] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Contact.png)
+![FAQ] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/FAQ.png)
+![Facilities](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Facilities.png)
+![About](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/About.png)
+![About](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/About1.png)
+![pricing](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/pricing.png)
