@@ -89,7 +89,42 @@ AngularJS provide services like `$http, $route, $window, $location etc`. Each se
 
 
 
-Zak's club implementation
+# Zak's club implementation
+
+Here goes a funny example for AngularJS by using some template which i found on web. I am going to develop a Happy club application where a group of friends try to help others and make the society Happy. 
+
+#### Steps to run the application
+- Install any webserver on your machine, I had used Apache Tomcat. 
+- Download the code and place it in webapps folder of Tocat.
+- Now start the server, and reach the index.html page.
+- And the magic starts.......
+
+The basic areas of the Page include
+- Home
+- Facilities
+- Pricing
+- About
+- FAQ
+- Contact
+
+I am using Bootstrap as it fits awesome for these kind of funny sites. Angular JS is more suitable for Single Page application, here I did not included any back end code rather just wrote it as front end stuff.
+
+
+All the necessery libraries are included in `index.html` instead of rewriting the code.
+```html
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+```
+
 ![Home] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Home_page.png)
 ![Home] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Home1.png)
 ![Contact] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Contact.png)
