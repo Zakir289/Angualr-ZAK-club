@@ -147,7 +147,6 @@ Instead of writing Navigation code(Header), Fotter for each and every page, we w
 ##### 3.Angular Routes
 
 Angular routes provide helps to load other html pages. 
-```html
 
   $routeProvider
     // Home
@@ -158,7 +157,7 @@ Angular routes provide helps to load other html pages.
     .when("/pricing", {templateUrl: "partials/pricing.html", controller: "PageCtrl"})
     .when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
-    ```
+
     
     The final page looks relly awesome. The output will be ten times more than the work done by us.
     
@@ -166,14 +165,26 @@ Angular routes provide helps to load other html pages.
 ## Here is how the site looks finally
 
 ### 1.Entire Home page
+Its the complete glance of the home page. The below image is the complete home page
+
 ![Home] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Home_page.png)
-### 2. Visible area
+
+### 2. Visible Home page
+This is visible area of the home page in Macbook 11 inches	
+
 ![Home] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Home1.png)
 ### 3.Contact page
+This page describes how can people reach out ZAK's club through onlne
 ![Contact] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Contact.png)
 ### 4.FAQ page
 ![FAQ] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/FAQ.png)
+#### 5.Facilities
+Facilities page provides the information about the services
 ![Facilities](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Facilities.png)
+#### 6.About
+About page include information about how the club is formed and team info
 ![About](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/About.png)
+#### This how it is visible on Macbook 11 inches
 ![About](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/About1.png)
+#### The most funniest of all:)
 ![pricing](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/pricing.png)
