@@ -126,7 +126,7 @@ All the necessery libraries are included in `index.html` instead of rewriting th
 ```
 ### Angular Architecture
 
-##### Angular Directives
+##### 1.Angular Directives
 
  **ng-app** directive binds the Angular app to this single page’s html body.
  **ng-include** loads the necessery files on the page.
@@ -141,13 +141,14 @@ All the necessery libraries are included in `index.html` instead of rewriting th
 <div ng-include='"templates/footer.html"'></div>
 ```
 
-##### Templates
+##### 2.Templates
 Instead of writing Navigation code(Header), Fotter for each and every page, we write header and fotter here and include them in index.html as we do  in most of the MVC frameworks.
 
-##### Angular Routes
+##### 3.Angular Routes
 
 Angular routes provide helps to load other html pages. 
 ```html
+
   $routeProvider
     // Home
     .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
@@ -164,9 +165,13 @@ Angular routes provide helps to load other html pages.
     
 ## Here is how the site looks finally
 
+### 1.Entire Home page
 ![Home] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Home_page.png)
+### 2. Visible area
 ![Home] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Home1.png)
+### 3.Contact page
 ![Contact] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Contact.png)
+### 4.FAQ page
 ![FAQ] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/FAQ.png)
 ![Facilities](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Facilities.png)
 ![About](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/About.png)
