@@ -124,6 +124,45 @@ All the necessery libraries are included in `index.html` instead of rewriting th
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 ```
+### Angular Architecture
+
+##### Angular Directives
+
+ **ng-app** directive binds the Angular app to this single page’s html body.
+ **ng-include** loads the necessery files on the page.
+ **ng-view** provides a container in which Angular routes include the pages
+```html
+
+
+<body ng-app="AngularTutorial">
+
+<div ng-include='"templates/header.html"'></div>
+<div ng-view></div>
+<div ng-include='"templates/footer.html"'></div>
+```
+
+##### Templates
+Instead of writing Navigation code(Header), Fotter for each and every page, we write header and fotter here and include them in index.html as we do  in most of the MVC frameworks.
+
+##### Angular Routes
+
+Angular routes provide helps to load other html pages. 
+```html
+  $routeProvider
+    // Home
+    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
+    // Pages
+    .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
+    .when("/faq", {templateUrl: "partials/faq.html", controller: "PageCtrl"})
+    .when("/pricing", {templateUrl: "partials/pricing.html", controller: "PageCtrl"})
+    .when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
+    .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
+    ```
+    
+    The final page looks relly awesome. The output will be ten times more than the work done by us.
+    
+    
+## Here is how the site looks finally
 
 ![Home] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Home_page.png)
 ![Home] (https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/Home1.png)
