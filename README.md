@@ -188,3 +188,5 @@ About page include information about how the club is formed and team info
 ![About](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/About1.png)
 #### The most funniest of all:)
 ![pricing](https://github.com/Zakir289/Angualr-ZAK-club/blob/master/DocumentedImages/pricing.png)
+
+The above application did not used much of Angular features will upate it with few other stuff
